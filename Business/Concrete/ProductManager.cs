@@ -25,7 +25,7 @@ namespace Business.Concrete
         {
 
 
-            //ValidationTool.Validate(new ProductValidator(), product);
+            ValidationTool.Validate(new ProductValidator(), product);
 
             _productDal.Add(product);
             return new SuccessResult(Messages.productAdded);
