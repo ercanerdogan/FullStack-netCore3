@@ -15,5 +15,7 @@ namespace Business.Abstract
         IResult Delete(Product product);
         IResult Update(Product product);
 
+        IResult TransactionalOperation(Product product);
+
     }
 }

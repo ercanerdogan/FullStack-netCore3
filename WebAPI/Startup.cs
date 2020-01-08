@@ -31,7 +31,7 @@ namespace WebAPI
         {
             //dependencies can be handle here but this way is highly coupled way. 
             //because of that we don't prefer to handle here 
-            //we will implement this will autofac .
+            //we will implement this will autofac.
             services.AddControllers();
             //cross origin resource sharing
             services.AddCors(options =>
