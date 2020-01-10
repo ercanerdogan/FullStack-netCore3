@@ -24,7 +24,6 @@ namespace Core.Utilities.Interceptors
 
         }
 
-
         public override void Intercept(IInvocation invocation)
         {
             var isSucces = true;
